@@ -1,0 +1,108 @@
+/* ======================== */
+/* BASIC SETUP */
+/* ======================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+html{
+    font-size: 62.5%;
+}
+ul li{
+    list-style: none;
+}
+/* header */
+h1{
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+/* ======================== */
+/* REUSABLE COMPONANT */
+/* ======================== */
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+/* BUTTON */
+.btn-hero:link,
+.btn-hero:visited,
+.btn{
+    background: #333;
+    border-bottom: .3rem solid #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 6rem;
+    border-radius: .3rem;
+    margin-top: 4.5rem;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* ======================== */
+/* HEADER SECTION */
+/* ======================== */
+header{
+    background: linear-gradient(rgba(135, 80, 156,.9),rgba(135, 80, 156,.9)),url('img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 85vh;
+    position: relative;
+}
+.logo{
+    height: 3.5rem;
+    width: auto;
+    margin-top: 3.5rem;
+    float: left;
+}
+/* Main navigation */
+.main-nav{
+    float: right;
+    margin-top: 4rem;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121,0);
+    padding: .6rem 1.6rem;
+    border-radius: .3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    background: rgba(100, 58, 121,1);
+}
+.active{
+    background: rgba(100, 58, 121,1);
+    border-radius: .3rem;
+}
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn-hero:link,
+.btn-hero:visited{
+    background: #eb7b4b;
+    border-color: #c86a40;
+}
