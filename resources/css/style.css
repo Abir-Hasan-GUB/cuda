@@ -348,3 +348,50 @@ svg.ui-ux circle{
 .portfolio-section .mixitup-control-active{
     background: #fff;
 }
+
+/* ======================== */
+/* TESTIMONIAL SECTION */
+/* ======================== */
+.testimonial-section{
+    background: linear-gradient(rgba(215,70,128,.9),rgba(215,70,128,.9)),url("img/testimonial-bg.jpg");
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.testimonial-section .little-description,h2{
+    text-align: center;
+}
+.testimonial-section .col:nth-child(3){
+    margin-left: 0;
+}
+.testimonial-section .col:nth-child(1),
+.testimonial-section .col:nth-child(2){
+    margin-top: 3.5rem;
+}
+.testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4){
+    margin-top: 7rem;
+}
+.client-photo img{
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+.client-photo{
+    width: 10rem;
+    float: left;
+}
+.client-review{
+    width: 35rem;
+    float: left;
+}
+.client-review p{
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.client-review .role{
+    color: #ffdd99;
+}
