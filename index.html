@@ -10,8 +10,7 @@
     <link rel="shortcut icon" href="resources/img/cuda.png" type="image/x-icon">
 
     <!-- ------------- Google Font ------------ -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <!-- -------------- Vendors File --------- -->
     <link rel="stylesheet" href="vendors/css/normalize.css">
@@ -42,6 +41,21 @@
                     <li><a href="#testimonial">testimonial</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void()" onclick="closeNav()" class="closeBtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#header">home</a>
+                            <a onclick="closeNav()" href="#service">Service</a>
+                            <a onclick="closeNav()" href="#team">team</a>
+                            <a onclick="closeNav()" href="#skill">skill</a>
+                            <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                            <a onclick="closeNav()" href="#testimonial">testimonial</a>
+                            <a onclick="closeNav()" href="#contact">contact</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="hero-text-box">
