@@ -163,6 +163,24 @@ header{
     border-color: #c86a40;
 }
 
+/* STICKY NAVBAR  */
+.sticky{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(134, 80, 149,.9);
+    padding: 1rem 0;
+    transition: .2s;
+    box-shadow: 0 .3rem .5rem rgba(255, 255, 255,.9);
+}
+.sticky .logo{
+    margin-top: 0;
+}
+.sticky .main-nav{
+    margin-top: 0;
+}
+
 /* ======================== */
 /* SERVICES SECTION */
 /* ======================== */
