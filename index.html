@@ -16,6 +16,7 @@
     <!-- -------------- Vendors File --------- -->
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
     <!-- --------------- Resources File ------------- -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
@@ -35,8 +36,8 @@
                 <ul class="main-nav">
                     <li class="active"><a href="#">home</a></li>
                     <li><a href="#service">Service</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">work</a></li>
+                    <li><a href="#team">team</a></li>
+                    <li><a href="#skill">skill</a></li>
                     <li><a href="#">blog</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
@@ -53,7 +54,7 @@
 
     <!-- ---------------- START SERVICE SECTION ------------------ -->
 
-    <section class="service-serction clearFix" id="service">
+    <section class="service-serction" id="service">
         <div class="row">
             <h2>SERVICE WE PROVIDE</h2>
             <p class="little-description">We are working with both individuals and businesses from all over the globe to
@@ -88,7 +89,7 @@
 
     <!-- ---------------- START TEAM SECTION ------------------ -->
 
-    <section class="team-section clearFix">
+    <section class="team-section" id="team">
         <div class="row">
             <h2>MEET OUR BEAUTIFUL TEAM</h2>
             <p class="little-description">We are a small team of designers and developers, who help brands with big
@@ -160,11 +161,61 @@
 
     <!-- ---------------- END TEAM SECTION ------------------ -->
 
+    <!-- ---------------- END TEAM SECTION ------------------ -->
+
+    <section class="skill-section" id="skill">
+        <div class="row">
+            <h2>we got skill !</h2>
+            <p class="little-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                  </svg>
+                  <h3>Web Design</h3>
+            </div>
+            <div class="col span_1_of_4">
+                <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                  </svg>
+                  <h3>HTML / CSS</h3>
+            </div>
+            <div class="col span_1_of_4">
+                <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                  </svg>
+                  <h3>Graphic Design</h3>
+            </div>
+            <div class="col span_1_of_4">
+                <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                  </svg>
+                  <h3>UI / UX</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------- END TEAM SECTION ------------------ -->
+
 
     <!-- ---------------- External JS ---------------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="vendors/js/html5shiv.min.js"></script>
     <script src="vendors/js/respond.min.js"></script>
     <script src="https://kit.fontawesome.com/5857fbd9b0.js" crossorigin="anonymous"></script>
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="resources/js/coustom.js"></script>
 </body>
 
 </html>

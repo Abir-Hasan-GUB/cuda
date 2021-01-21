@@ -13,6 +13,7 @@ body{
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 ul li{
     list-style: none;
@@ -33,13 +34,13 @@ h1{
 section{
     padding: 80px 0;
 }
-.clearFix::after{
+/* .clearFix::after{
     content: "";
     display: block;
     clear: both;
     height: 0;
     visibility: hidden;
-}
+} */
 /* BUTTON */
 .btn-hero:link,
 .btn-hero:visited,
@@ -210,6 +211,7 @@ header{
     color: #30bae7;
     font-size: 1.6rem;
     text-transform: capitalize;
+    display: inline-block;
     margin-top: 1rem;
 }
 .team-section .box p{
@@ -239,4 +241,50 @@ header{
 .social-link .socialIcon:hover i::before{
     background: #393939;
     transform: rotate(360deg);
+}
+
+/* ======================== */
+/* SKILLS SECTION */
+/* ======================== */
+.skill-section{
+    background: linear-gradient(rgba(255, 255, 255,.9),rgba(255, 255, 255,.9)),url('img/skill-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3c4761;
+    text-align: center;
+}
+.skill-section h2, 
+.skill-section h3{
+    color: #3c4761;
+}
+.skill-section h2::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #dfe8ed;
+    width: 85px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.skill-section .box{
+    margin-top: 4.5rem;
+}
+svg.radial-progress circle{
+    stroke-width: 6;
+}
+svg.radial-progress text{
+    fill: #393939;
+    font-weight: 700;
+}
+svg.web-design circle{
+    stroke: #30bae7;
+}
+svg.html-css circle{
+    stroke: #d74680;
+}
+svg.graphic-design circle{
+    stroke: #1567a8;
+}
+svg.ui-ux circle{
+    stroke: #eb7b4d;
 }
