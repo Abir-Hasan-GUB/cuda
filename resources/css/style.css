@@ -31,6 +31,9 @@ h1{
     max-width: 114rem;
     margin: 0 auto;
 }
+.hero-text-box{
+    max-width: 114rem;
+}
 section{
     padding: 80px 0;
 }
@@ -173,6 +176,7 @@ header{
     padding: 1rem 0;
     transition: .2s;
     box-shadow: 0 .3rem .5rem rgba(255, 255, 255,.9);
+    z-index: 9999;
 }
 .sticky .logo{
     margin-top: 0;
