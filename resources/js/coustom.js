@@ -9,6 +9,7 @@ $('.js--service-section').waypoint(function(direction){
 })
     // add mixitup on Portfolio section
     const mixer = mixitup('.portfolioContainer');
+
 })
 
 // Mobile Nav
